@@ -85,6 +85,9 @@ write.csv(responses, file=outPath, row.names=FALSE)
 
 
 
+getGroup <- function(x) {
+  responses[responses$Group == x,]
+}
 
 
 
